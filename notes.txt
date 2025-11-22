@@ -1,0 +1,319 @@
+JDK  - java development kit - develope java application 
+
+JRE -java runtime enviornment -> run java application 
+
+
+OS -> JAVA -> JRE 
+
+
+windows + r => cmd 
+
+start - windows -> command 
+
+
+enviornment -> windows -> 
+
+C:\Program Files\Java\jdk-21\bin -> copy 
+
+
+open this pc -> blank space -> right click -> properties -> advance system setting -> enviornment variable -> system variable -> 
+path -> new -> paste your path -> ok ok ok ok -> 
+
+----------------------------------------------------------------------------------------------------------------
+
+java -> H.L -> Eng -> 
+    javac
+    java compiler 
+
+
+.c -> compile -> .exe  .obj .bak  
+.java ->   .class 
+
+javac First.java 
+java First 
+
+
+
+OOP -> 
+    class  :  logical , group , general  
+    object :  physical , member , special 
+
+
+    class AC
+    class Iphone  
+    class Men
+    class Mango
+    class Projector 
+
+    class Tea
+    class Fan
+    object Gandhiji
+    object Dhiraj Sir 
+    object iphone 17 512GB RED color 
+    Object kesar mango yellow sweet 
+
+    NT -> 
+
+    Salman Khan ->
+
+
+    class -> properties -> 
+                1) data member  -----        variable  
+                2) member function ------    method 
+
+    Projector 
+
+    Men 
+
+    Dog 
+        leg 
+        tail 
+        eyes
+        teeth 
+
+        walk()
+        run()
+        jump()
+        bark()
+        bite()
+
+        scooby -> 
+
+
+
+
+Bank 
+        accountNum
+        balance 
+        userName
+        password 
+        pan 
+
+        openAcc()
+        wid()
+        dep()
+        checkBal()
+
+
+        customer->
+
+
+
+-----------------------------------------------------------------------------
+
+create class Calc 
+                    main 
+                            this is calc 
+                            this is calc 
+
+
+-----------------------------------------------------------------------------
+class -> First  
+      -> TempEmp 
+      -> TempSalTax 
+
+
+variable -> salary 
+            maxSalary 
+            maxSalaryTax 
+
+constant variable -> 
+            MAX_SALARY 
+            PI 
+            ROI 
+
+method -> same as variable -> 
+                    add()
+                    addEmp()
+                    addEmpSal() 
+                    
+------------------------------------ 
+Calc 
+        main
+                addition of two numbers 
+                    step 1: take two variables -> input 
+                    step 2: addition -> variable 
+                    step 3: addition -> display
+
+------------------------------------ 
+class -> calc 
+    add()
+    sub()
+    multiplication()
+
+------------------------------------ 
+
+
+Calculator.java 
+
+class : Calculator 
+
+main() 
+
+Calculator working fine 
+
+------------------------------------ 
+
+variable -> 
+                data name 
+                in which we will store values 
+
+data type ->
+                int a; // numeric -> whole digits 
+                float a; // numeric -> floating point 
+
+
+
+            Data Type 
+
+1) primitive 
+        byte : 1 byte : 8 bits 
+        short : 2 byte : 16 bits 
+        char  : 2 byte 
+        int   : 4 byte 
+        long  : 8 byte 
+        float : 4 byte 
+        double: 8 byte 
+        boolean {true|false} : 1 bits 
+
+2) non primitive 
+        class {String}
+        Object 
+        array 
+        enum
+        interface 
+
+----------------------------------------------------------------------------------------
+
+
+Scanner 
+    nextInt()
+    nextFloat()
+    nextDouble()
+
+
+import  java.util.Scanner; 
+
+ 
+----------------------------------------------------------------------------------------
+ 
+ ClassName objName = new ClassName(); 
+
+
+
+
+
+
+1) ___javac______ is used to compile java file and ___java_____ is used to run java class file 
+
+2) ___.java_____ is the extension of java file 
+
+3) full name of jdk ___java development kit_______ and jre ______java runtime enviornment__________ 
+
+4) for input we use _____Scanner_________ class and it will import using ___import java.util.Scanner______ line 
+
+5) ____nextInt()____ method is used to read integer input from console.
+
+6) signature of the main method ______public static void main(String args[])____ 
+
+7) we have total ____8____primitive data types. 
+
+8) to store true / false values we have __boolean__ data type in java? 
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
+ String 
+ System 
+
+ Scanner : input { nextInt( ) }
+ Date : date day month year hour second milisecond timezone {IST} 
+
+
+import java.util.Scanner;
+import java.util.Date; 
+
+import java.util.*; 
+        //no memory 
+
+
+object create -> 
+use --> 
+
+import java.lang.*;
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
+single character -> 
+                    char name =   'z';
+
+multiple character 
+                    char name[] = "royal"; 
+                    String class 
+                        collection of characters 
+
+
+
+
+
+Student 
+    firstName
+    lastName 
+    course
+    pyramid 
+    contactNum 
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
+ 
+Student 
+    firstName
+    lastName 
+    course
+    pyramid 
+    contactNum 
+
+
+    getData() : read student info 
+    printData() : print student info 
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
