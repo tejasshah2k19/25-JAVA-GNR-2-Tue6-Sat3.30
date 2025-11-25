@@ -289,9 +289,47 @@ Student
 
 
 
+JDK : 
+JRE : 
+
+.java 
+
+Calc.java 
+
+compile -> 
+            javac Calc.java 
+            java Calc 
 
 
+data types -> 
+        1) primitive
+                byte short char int long float double boolean 
+        2) non primitive 
+                class object array interface enum 
 
+------------------------------------------------------------------------------------------------------------------
+
+input : Scanner 
+
+    int scan     -> nextInt() 
+    float scan   -> nextFloat()
+    double scan  -> nextDouble()
+
+import java.util.Scanner; 
+
+object -> 
+
+        Scanner scr = new Scanner(System.in);
+
+------------------------------------------------------------------------------------------------------------------
+1) take number from user and print multiplication table of that number 
+2) take three numbers from user and find out max from it. 
+3) take number from user and find out sum of digits of num 
+                e.g num = 1223
+                ans = 1+2+2+3 = 8 
+                num = 85;
+                ans = 13 
+------------------------------------------------------------------------------------------------------------------
 
 
 
