@@ -331,6 +331,71 @@ object ->
                 ans = 13 
 ------------------------------------------------------------------------------------------------------------------
 
+Java ->                 JDK , JRE
+
+                tools -> javac , java , jdb , javadoc , appletviewer , 
+
+extension java save ?  .java 
+
+
+A.java -> compile -> javac A.java -> A.class -> java A 
+                        main() 
+--------------------------------------------------------------------------------------------------------------------
+class : object  : OOP 
+
+data type ->    2 -> primitive , non primitive 
+--------------------------------------------------------------------------------------------------------------------
+
+true , false -> boolean 
+
+while(1){
+
+}
+
+while(true){
+        
+}
+
+--------------------------------------------------------------------------------------------------------------------
+  input ? 
+                Scanner class  
+  how   ? 
+                Scanner scr = new Scanner(System.in);
+
+  import ? 
+                import java.util.Scanner;
+                import java.util.*;
+
+--------------------------------------------------------------------------------------------------------------------
+  5 6 7 => byte , short , int , long
+
+ byte  : 1 -> 8 bits -> 2^8 -> 256 -> -128 to  127 
+ short : 2 -> 16bits -> 
+ int   : 4 -> 32bits -> 
+ long  : 8 -> 64bit  -> 
+--------------------------------------------------------------------------------------------------------------------
+
+
+class Employee 
+        employeeId , salary  , basicSalary 
+        +12%HRA , -10%PF  , +8%DA , +8%TA ,  
+
+        getData();
+        printData(); employeeId basicSalary HRA PF DA TA Salary TAX:Y  TAX_AMOUNT:5200 
+        calculateTax(); 
+                        totalSalary PA -> 12LAC - 15LAC  -> 10% TAX 
+                                          15+ - 30 -> 20% 
+                                          30+ -> 30% 
+        //helper 
+        calculateSalary():  
+
+--------------------------------------------------------------------------------------------------------------------
+
+cohesion -> 
+
+
+
+
 
 
 
