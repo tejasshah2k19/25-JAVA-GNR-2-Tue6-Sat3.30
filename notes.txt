@@ -394,29 +394,182 @@ class Employee
 cohesion -> 
 
 
+--------------------------------------------------------------------------------------------------------------------
+
+javac 
+java 
+
+
+
+platform dependant 
+
+windows -> 
+                .c      -->    .exe 
+                .cpp    --> 
+mac --> 
+
+                .c -> 
+linux -> 
+                .c -> 
 
 
 
 
+JAVA -> platform independent lang 
+                WORA 
+
+                Write Once Run Anywhere 
+                Write One Run Anytime 
+
+.class -> byte code ->
+
+        JRE 
+        
+
+
+JRE JVM class loader JIT 
+BYTE code MAGIC CODE 
+WORA 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Java loops ->
+                repeat 
+                iterative 
+
+                        for 
+                        while 
+                        do...while 
+                        enhanced for loop ... for each loop 
 
 
 
 
+MultipliactionTable ->
+                main -> 
+                        num scan -> 
+                                10 -> 
+                                        for loop -> 
+                                                        10 * 1 =  10 
+                                                        10 * 2 =  20 
+                                                        10 * 10 = 100
+----------------------------------------------------------------------------------------------------------------------
+
+identifier and keywords 
+
+
+identifier :- 
+        variable 
+        method 
+        class 
+        object 
+
+        int num; // num 
+        String firstName ; // firstName 
+        int num1; // valid 
+        int 1num; // invalid 
+
+        1) a-z A-Z 0-9 _  $
+        2) first character must not be DIGIT  
+        3) you can not use balnk space 
+        4) yon can not use keywords 
+        5) case senisitive -> uppercase and lowercase are different 
+
+        int _a;  ---> valid 
+        int $c;  ---> valid 
+        int ______2_w; --> valid 
+        int _$;  --> valid  
+        int -d;  --> invalid 
+        int e#;  --> invalid 
+        int .f;  --> invalid
+        int 7g;  --> invalid 
+
+
+keywords ---> reserved words 
+
+        int 
+        if 
+        continue 
+        goto
+        break 
 
 
 
+        int goto; //error 
+
+----------------------------------------------------------------------------
+class ->
+                Employee
+                TempEmpl
+                TempEmpl 
+
+method ->       addition()
+                textCalculation() 
+                findMaxNum()
+
+variable ->     salary
+                totalSalary
+
+constants ->    SIZE 
+                PI
+                MIN_BAL
+
+----------------------------------------------------------------------------
+default value -->
+
+byte :  0
+short : 0
+char :  '\u0000'
+int  :  0
+long :  0
+float : 0.0
+double : 0.0 
+boolean : false 
+
+----------------------------------------------------------------------------
+
+constructor --> constructor is a special method , which has same name as class name. 
+                and it must not have any return type. 
+            --> constructor is used to initalize instance variable. 
+            --> we have two types of constructor 
+                        1) implicit constructor 
+                        2) explicit constructor 
+                                2.1)    no argument , default constructor 
+                                2.2)    argument , parameterized constructor 
+            --> we don't need to call constructor manually , it will call automatically when we create instance 
+            
+class Employee{
+
+        Employee(){
+
+        }
+
+}
+
+-----------------------------------------------------------------------------------------------
+
+create a class call product , with productId , prodcutCode , productDiscount  and productPrice 
+        we will create three products 
+        use constructor to initalize values of product 
+        call display function to print all the values of Product class 
+output: 
+1
+A
+500
+50000
+
+101
+Z
+5000
+150000
 
 
-
-
-
-
-
-
-
-
-
-
+451
+X 
+4000
+400000
+------------------------------------------------------------------------------------------------
 
 
         
