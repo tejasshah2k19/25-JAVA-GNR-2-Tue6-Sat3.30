@@ -571,5 +571,75 @@ X
 400000
 ------------------------------------------------------------------------------------------------
 
+class BasicCalc 
 
-        
+        add()
+        sub()
+        mul()
+        div()
+
+class SciCalc 
+
+        sqrt()
+        sin()
+        cube()
+
+
+
+
+add() -> 
+        object -> BasicCalc 
+
+cube() -> object -> SciCalc 
+
+
+SciCalc -> object -> add() sub() mul() div() 
+
+
+inheritance -> object of one class can access property of another class 
+
+how to achieve inheritance ? 
+ans : using extends keyword 
+
+class BasicCalc{
+        //add() sub() mul() div()
+}
+
+class SciCalc extends BasicCalc{
+        //sin() cube() sqrt()
+}
+
+------------------------------------------------------
+
+BasicCalc 
+SciCalc 
+
+Parent Class  / Super / Base 
+Child  Class / Sub   / Derived 
+
+------------------------------------------------------
+we have 5 types of inheritance in OOP 
+
+java supports 4 types of inheritance directly [ using class ]
+for 5th type we need to use interface [using interface ]
+
+
+1) single level 
+2) multi level 
+3) multiple 
+4) hirerchical 
+5) hybrid 
+
+-------------------------------------------------------------------------
+
+method signature ->  return type , argument , name 
+
+                        void add() // no return type no argument 
+                        int  add() // return type no argument 
+                        void add(int,int) // no return with argument 
+                        int add(int,int) // return with argument 
+
+constructor signature -> ABSENT in return , no argument or with argument , name -> same as class name 
+  -------------------------------------------------------------------------
+
+
