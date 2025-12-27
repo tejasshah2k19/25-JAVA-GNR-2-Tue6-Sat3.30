@@ -967,5 +967,30 @@ q : count given word in a string.
 
 ------------------------------------------------------------------------------------
 
+String ---> 
+                        StringBuffer 
+                        StringBuilder 
+
+import java.lang.*;
+
+                        StringBuffer : sync  
+                        StringBuilder : non sync 
 
 
+------------------------------------------------------------------------------------
+
+1) JonYjonYYesPapa -> jONyJONyyESpAPA
+2) RoyalEducation -> remove all the vowels from string -> Ryldctn
+3) Palidrome using StringBuffer/StringBuilder
+
+------------------------------------------------------------------------------------
+
+1) String Compression with Frequency (Using StringBuffer)
+Compress a string like "aaabbcddd" → "a3b2c1d3"
+
+
+2)Remove Duplicate Characters
+"programming" → "progamin"
+
+ 
+------------------------------------------------------------------------------------
