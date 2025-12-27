@@ -643,3 +643,329 @@ constructor signature -> ABSENT in return , no argument or with argument , name 
   -------------------------------------------------------------------------
 
 
+class Account{
+
+        //
+        //
+}
+
+class SavingAccount extends Account{
+        //
+        //
+        //       
+}
+
+Parent - Super - Base   
+Child  - Sub   - Derived 
+ 
+--------------------------------------------------------------------------------------
+1: single level 
+2: multi level 
+3: multiple   [ not supported via class ] [ interface ]
+4: hirerchical
+5: hybrid 
+--------------------------------------------------------------------------------------
+
+Overriding-> child will create method with exact same signature with parent 
+private default protected public 
+
+--------------------------------------------------------------------------------------
+
+
+SBI s = new SBI();
+s.wid();
+
+
+What type of inheritance is demonstrated here?
+A. Single inheritance
+B. Multiple inheritance
+C. Multilevel inheritance
+D. Hybrid inheritance
+Ans: C 
+
+
+Which statement about inheritance is correct?
+A. Java supports multiple inheritance using classes
+B. Inheritance helps in code reusability
+C. Private members are inherited
+D. Constructors are inherited
+Ans: B 
+
+
+Which of the following is NOT a use of super keyword?
+A. Access parent class constructor
+B. Access parent class method
+C. Access parent class variable
+D. Access child class method
+Ans : D 
+ 
+__________ keyword is used to achieve inheritance in java?
+Ans: extends
+
+
+
+Which condition is mandatory for method overriding?
+A. Method name must be different
+B. Return type must be different
+C. Method signature must be same
+D. Method must be static
+Ans: C 
+
+
+Can a private method be overridden?
+A. Yes
+B. No
+C. Only in same package
+D. Only using super
+Ans : NO 
+
+
+
+
+class Parent {
+    void display() {
+        System.out.println("Parent");
+    }
+}
+class Child extends Parent {
+    void display() {
+        System.out.println("Child");
+    }
+}
+public class Test {
+    public static void main(String[] args) {
+        
+        Parent p = new Child();//polymorphic object 
+        
+        p.display();// compiletime : Parent , runtime : Child 
+    }
+}
+
+A. Parent
+B. Child
+C. Compile-time error
+D. Runtime error
+
+Ans: B 
+
+
+--------------------------------------------------------------------------------------
+String --> collection of characters 
+
+
+char -> single character 
+
+1+ -> char[] 
+
+
+String class -> 1+ char 
+                        char[]
+
+
+java.lang.String 
+
+
+String s1 = new String("royal");
+String s2 = "royal";
+
+
+length()
+toUpperCase()
+toLowerCase()
+equals() 
+
+1) take email and password from user and print Valid if email is admin@gmail.com and password is secret 
+
+
+Takes username and password from the user.
+Converts the username to lowercase for comparison.
+Validates:
+Username must be at least 5 characters long.
+Username should not be "admin" (case-insensitive).
+Username should not be  start with "admin" (case-insensitive).
+Username should not be  end with "admin" (case-insensitive).
+
+Checks login using:
+stored username = "tejas"
+stored password = "Java123"
+If login is successful:
+Print username in UPPERCASE.
+Print the length of username.
+If not, print appropriate error messages.
+
+
+
+admin123 
+123admin
+
+startsWith() : boolean 
+endsWith()  :  booelan 
+contains() : boolean 
+
+
+String x = "jony jony yes papa" ; 
+String w[] = x.split(" ");
+System.out.print(w.length);//4 
+
+
+String x = "monday,tues,wed,thus,fri" ;
+String w[] = x.split(","); 
+--------------------------------------------------------------------------------------------
+
+String x1 = "rock";
+String x2 = "Rock"; 
+
+x1.equals(x2); // false 
+x1.equalsIgnoreCase(x2); // true 
+
+
+x1.compareTo(x2); // 32 
+x2.compareTo(x1); // -32
+x2.compareToIgnoreCase(x1); // 0 
+
+ 
+--------------------------------------------------------------------------------------------
+
+Takes a username and email from the user.
+Converts username to lowercase for checking.
+
+Validates:
+Username length must be between 5 and 12.
+Username must not be "admin" (ignore case).
+Email must:
+start with a letter (simple check),
+contain "@",
+end with ".com".
+Compare username with stored username "tejas" using compareTo().
+
+If all validations pass:
+Print username in UPPERCASE.
+Print username length.
+Print whether it comes before/after/equal to "tejas".
+Otherwise, print appropriate error messages.
+
+--------------------------------------------------------------------------------------------
+
+Write a Java class CourseAssignment with a method:
+public void validate(String studentName, String courseCode)
+The method should perform the following:
+
+Student Name Rules
+        Convert name to lowercase for validation.
+        Length must be between 3 and 15 characters.
+        Must NOT be "guest" (case-insensitive).
+        Must NOT contain spaces.
+
+Course Code Rules
+        Must start with "CS".
+        Must contain "-".
+        Must end with a digit (0–9).
+        Total length must be between 5 and 10 characters.
+
+If all validations pass, then print :
+All validations passed!
+Student name in uppercase: <NAME>
+Student name length: <LEN>
+
+If any validation fails, return a meaningful error message like:
+Error: Course code must start with CS.
+
+Example:
+input->
+        studentName = "Ravi"
+        courseCode = "CS-101"
+
+output->
+        All validations passed!
+        Student name in uppercase: RAVI
+        Student name length: 4
+-----------------------------------------------------
+Validate an employee name and department code using Java String methods.
+public class EmployeeAssignment {
+    public void validate(String employeeName, String deptCode) {
+        // your logic here
+    }
+}
+Employee Name Rules
+Convert name to lowercase for validation.
+Length must be between 4 and 20 characters.
+Must NOT be "admin" (case-insensitive).
+Must NOT contain spaces.
+
+Department Code Rules
+Must start with "DEP".
+Must contain "-".
+Must end with a digit (0–9).
+Total length must be between 6 and 12 characters.
+
+If all validations pass, print:
+All validations passed!
+Employee name in uppercase: <NAME>
+Employee name length: <LEN>
+
+If any validation fails, print a meaningful error message, for example:
+Error: Department code must start with DEP.
+
+employeeName = "Amit"
+deptCode = "DEP-01"
+Output
+
+pgsql
+Copy code
+All validations passed!
+Employee name in uppercase: AMIT
+Employee name length: 4
+
+
+------------------------------------------------------------------------------------
+
+
+length()
+toUpperCase()
+toLowerCase()
+equals()
+equalsIgnoreCase()
+compareTo()
+compareToIgnoreCase() 
+split() 
+
+
+
+trim() 
+String str = "    royal  edu  ";
+str.trim() -> "royal edu";
+
+charAt()
+String str = "royal education";
+str.charAt(0) -> r 
+str.charAt(7) -> d 
+
+indexOf() lastIndexOf()
+String str = "royal royal";
+str.indexOf('r') => 0 
+str.lastIndexOf('r') => 6
+
+replace()
+
+String str = "ROYAL"; 
+str.replace("R","G"); // GOYAL 
+str.replace('R','G'); // GOYAL 
+
+String str = "ROYAL"; 
+str.replace("RO","ro") // roYAL 
+
+
+
+q : count vowels from string.
+        string => JONY jony yes papa 
+        output => 5
+
+q : count given word in a string. 
+                string => jony jony yes papa
+                word   => jony 
+                output => 2 
+
+------------------------------------------------------------------------------------
+
+
+
