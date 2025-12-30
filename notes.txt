@@ -994,3 +994,129 @@ Compress a string like "aaabbcddd" → "a3b2c1d3"
 
  
 ------------------------------------------------------------------------------------
+
+int a = 10; //4 byte 
+
+a = 20; 
+
+s.o.p(a); 
+
+
+array -> collections of same type of data , continue allocation 
+
+
+c: 
+int a[5]; // X:2000 X:2004 X:2008 X:2012 X:2016-2020 
+
+java: 
+        int a[]; //declare 
+        a = new int[5]; //init 
+
+        int a[] = new int[5]; // array 1 
+
+------------------------------------------------------------------------------------
+
+Q.1 
+
+int[] a = new int[3];
+System.out.println(a[0]);
+
+A. Compilation error
+B. Runtime error
+C. 0
+D. Garbage value
+
+ans :C  
+
+
+Q.2 
+int[] a = {10, 20, 30};
+a[1] = a[1] + a[2];
+System.out.println(a[1]);
+A. 20
+B. 30
+C. 50
+D. 60
+
+ans : c
+
+
+Q.3 
+int[] a;
+System.out.println(a);
+
+A. null
+B. 0
+C. Compilation error
+D. Runtime error
+
+Ans: C 
+
+Q.4 
+int[] a = new int[]{1,2,3};
+System.out.println(a.length());
+A. 3
+B. 0
+C. Compilation error
+D. Runtime error
+
+Ans: C 
+
+Q.5
+int[] a = new int[5];
+a[0] = 1;
+a[4] = 5;
+System.out.println(a[2]);
+
+A. 2
+B. 0
+C. 5
+D. Garbage value
+
+Ans: B 
+
+Q.6 
+
+int[] a = new int[-3];
+A. Array of size 0 created
+B. Compilation error
+C. NegativeArraySizeException
+D. Runtime ignored
+
+Ans : C 
+
+Q.7 
+int[] a = {1,2,3};
+System.out.println(a);
+A. 123
+B. Address value
+C. [I@someHash
+D. Compilation error
+
+Ans : [I@HSAHCODE
+
+Q.8
+int[] a = new int[0];
+System.out.println(a.length);
+A. 0
+B. Compilation error
+C. Runtime error
+D. 1
+
+ans: 0 
+
+------------------------------------------------------------------------------------------
+
+
+
+
+1) 10   20      30      40      50      
+        rotate() => 50 10 20 30 40 
+
+2) 10   20      30      10      20 
+   10  20  30     
+   assume : all values are positive 
+
+3) LeetCode ->
+                https://leetcode.com/problems/two-sum/description/
+
