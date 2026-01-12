@@ -1,0 +1,26 @@
+1)
+Write a program to input forty words in an array. Arrange these words in descending order of letters . Print the sorted array.
+Sample Input: New Delhi, Bengaluru, Agra, Mumbai, Kolkata 
+Sample Output: New Delhi, Mumbai, Kolkata, Bengaluru, Agra
+
+
+2) 
+Write a program to store names of 20 students and their telephone numbers correspondingly in two single dimensional arrays. 
+Enter a name separately and search it in the given list of names.
+If it is present then display the name with its telephone number otherwise,
+display a message "Name not found". 
+
+3)
+Take string form user and print in left triangle.
+input  : Royal 
+Output :
+        R
+        Ro
+        Roy
+        Roya
+        Royal
+
+4) Write a program in Java to accept a sentence in lowercase. Convert first letter of each word of the sentence in uppercase. 
+   Display the new sentence so formed.
+    Sample Input: we are in cyber world
+    Sample Output: We Are In Cyber World
