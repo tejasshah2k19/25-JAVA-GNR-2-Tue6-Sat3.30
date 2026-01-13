@@ -1167,5 +1167,99 @@ int col = scr.nextInt();
 x = new int[row][col]; 
 
 ------------------------------------------------------------------------------------------
+        class 
+        object 
 
+OOPS -> 
+
+        Encapsulation --> 
+                        data (variables) + methods (functions) are combined into a single unit (class),
+                        and direct access to data is restricted using access modifiers (usually private). 
+                        create getters and setters to access those private data. 
+
+
+        class Employee{
+
+                private String firstName;
+                private int salary;
+
+                public String getFirstName(){
+                        return firstName; 
+                }
+                public setFirstName(String firstName){
+                        this.firstName = firstName;
+                }
+
+                //getter setter for salary 
+        }
+
+
+        Inheritance  -> 
+        polymorphism -> 
+        abstraction  ->
+
+----------------------------------------------------------------------------------------
+
+
+S O L I D -> 
+
+        S -> Single Responsiblity Principal 
+                        Student -> addStudent() listStudent() addBook()
+                        Book -> addBook() 
+                        cohesion -> HIGH 
+        
+        O->  Open Close Principal --> 
+                        open for new features 
+                        close for existing modifications 
+
+        L-> Liskov Substitution Principle --> 
+                        child class must  be able to replace parent class without breaking the existing code. 
+
+        I-> Interface segeration Principal --> 
+
+        D-> DIP -> Dependency Inversion Principal 
+
+
+class Santa{
+        Santa(Banta a)
+        {
+
+        }
+
+}
+class Banta{
+
+}
+
+main -> 
+        Banta obj  = new Banta(); 
+        Santa s = new Santa(obj);
+
+
+class ShareMarket{
+ 
+        BuyShare b;
+        SellShare s; 
+
+        ShareMarket(BuyShare b,SellShare s){
+
+        }
+}
+
+BuyShare  b = new BuyShare();
+SellShare s = new SellShare(); 
+ShareMarket s =  new ShareMarket(b,s);
+
+-----------------------------------------------------------------------------------
+
+command line argument ==> 
+
+
+        Javac A.java 
+        Java A
+
+        Java A Ram Shyam Ganshyam  
+
+        dir -> folders , files -> list 
+        
 
