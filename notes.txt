@@ -1263,3 +1263,117 @@ command line argument ==>
         dir -> folders , files -> list 
         
 
+Basic ---> Sci 
+
+Parent class / super / base class 
+Child Class / Sub / Derived 
+
+
+
+OOP -> 5 type inheritance -> 
+Java -> class 4 type , 1 interface 
+         Single level 
+         multi level 
+         hirerchical 
+         multiple 
+         hybrid 
+
+-----------------------------------------------------------------------------------
+
+Ticket Booking App 
+
+
+type tickets -> 
+                        DIAMOND : 500   : 20 
+                        GOLD    : 300   : 30
+                        SILVER  : 200   : 50
+
+
+
+1) 1 person can book max 7 tickets per category 
+2) booking can be done via mobile number 
+
+MAIN MENU => 
+
+1. Login 
+2. Exit 
+
+
+
+
+Login : 
+                Enter Mobile Num 
+                12345
+
+After Login -> 
+        1. Buy Tickets 
+        2. My Tickets  
+        3. Logout 
+
+        1.Buy Tickets 
+                Gold ? Silver? Diamond?
+                Gold :  3 
+                Silver : 5 
+                Diamond : 8 
+
+                user => booking => ACK 
+
+                return after login menu 
+
+        2. My Tickets 
+                Gold    :   3 
+                Silver  :   5
+                Diamond  :  0
+
+                return after login menu 
+
+        1.Buy Tickets 
+                Gold ? Silver? Diamond?
+                Gold :  2 
+                Silver : 2 
+                Diamond : 2 
+
+                user => booking => ACK 
+
+                return after login menu 
+       2. My Tickets 
+                Gold    :   5 
+                Silver  :   7
+                Diamond  :  2
+
+                return after login menu 
+
+        3.  Logout 
+                        Thank you 
+
+                return main menu 
+                
+                1. Login 
+                2. Exit 
+
+                2 
+                System.exit(0); 
+
+
+class : 
+        Ticket 
+                gold : 30 , silver : 50 , diamond : 20 
+
+        Customer 
+                gold :           0 
+                silver :         0
+                diamond :        0
+                mobileNum :      - 
+
+        TicketBookingApp 
+                        main 
+
+------------------------------------------------------------------------
+
+final keyword ->
+
+final variable -> constant variable -> we can not modify 
+                when we declare we must have to assign values 
+                all caps => 
+                
+
