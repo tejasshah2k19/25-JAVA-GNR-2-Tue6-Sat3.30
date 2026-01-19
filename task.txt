@@ -69,11 +69,28 @@ Z : 90
         1 2 3 4 5 4 3 1 : 
 
 
+8) Remove Duplicate Characters From a String
+        Input:
+                programming
+        Output:
+                progamin
 
+9) Store City Names & Temperature, Find Hottest & Coldest
+        Input:
 
+        Cities: Ahmedabad, Delhi, Jaipur, Mumbai
+        Temps: 42, 40, 38, 36
 
+        Output:
+        Hottest City  : Ahmedabad (42°C)
+        Coldest City  : Mumbai (36°C)
 
+10) Count Prime Numbers in an Array (1D Array)
+        Input: [11, 14, 17, 18, 19, 23]
+        Output:
+        Prime Count = 4
 
+11) 
 
 
 
