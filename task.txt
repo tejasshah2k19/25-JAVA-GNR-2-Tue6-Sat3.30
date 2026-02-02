@@ -92,6 +92,20 @@ Z : 90
 
 11) 
 
+1) Input a string array using constructor and count total characters (excluding spaces).
+{"Java", "Spring", "Boot"} → Output: 15
+
+2) now in above array find out the longest string 
+    output : Spring 
+
+3) Print String who's last character is vowel 
+     output : Java 
+
+4)  Reverse Each String in Reverse 
+     output : { avaJ , gnirpS , tooB } 
+
+5) Convert above 4 functionalities in menu driven 
+
 
 
 
