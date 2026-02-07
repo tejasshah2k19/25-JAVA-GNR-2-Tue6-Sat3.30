@@ -1444,11 +1444,36 @@ frameworks -> wrapper
 
 -------------------------------------------------------------------------------
 
+Inheritance --> 
+        class BasicCalc
+                        add 
+                        sub
+
+        class SciCalc extends BasicCalc  
+                        sin
+                        sqrt
+        
 
 
+        SciCalc s = new SciCalc();
+        s.sin();
+        s.sqrt(); 
+        s.add();
+        s.sub();
 
 
+Parent / Super / Base 
+Child /  Sub  /  Derived 
+
+---------------------------------------------------------------------------
+OOPs 
+
+1 : SingleLevel 
+2 : Multilevel
+3 : hirerchical 
+4 : hybrid 
+5 : multiple  { interface }
 
 
-
+---------------------------------------------------------------------------
 
