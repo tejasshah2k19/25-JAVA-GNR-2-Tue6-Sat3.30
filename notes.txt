@@ -1377,3 +1377,78 @@ final variable -> constant variable -> we can not modify
                 all caps => 
                 
 
+------------------------------------------------------------------------
+
+java.util.Date 
+java.util.Calendar 
+
+LocalDate 
+LocalDateTime 
+
+
+------------------------------------------------------------------------
+overloading 
+wrapper class 
+priority in orverloading 
+------------------------------------------------------------------------
+polymorphism -> 1) compiletime polymorphism  
+                2) runtime polymorphism 
+
+over loading -> more than 1 form 
+            -> student, friend , cousins , 
+
+method overloading ->
+                        1) method name must be same 
+                        2) method argument / parameter must be different { unique }
+        add()
+        add(int a)
+        add(float b)
+        add(int a,int b)
+
+
+byte    =>      Byte 
+short   =>      Short
+char    =>      Character 
+int     =>      Integer 
+long    =>      Long
+float   =>      Float 
+double  =>      Double
+boolean =>      Boolean 
+
+
+wrapper class is used to convert primitive data to objects [ non primitive  ]
+int a = 10; 
+Integer a = 10; 
+
+int x  ; // 0 
+Integer x = null; 
+
+
+
+1) collection api 
+2) null data 
+3) object oriented 
+4) utility methods 
+5) frameworks 
+
+disadvantage : 
+        1) memory overhead  heap vs stack  
+        2) runtime error -> NullPointerException 
+        3) internall conversion -> autoboxing 
+
+
+collection -> wrapper 
+for -> primitive 
+database -> wrapper 
+frameworks -> wrapper 
+
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
