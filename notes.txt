@@ -1477,3 +1477,129 @@ OOPs
 
 ---------------------------------------------------------------------------
 
+polymorphism -> 
+                c => overloading  -> class {  add() , add(int,int), add(int,double) , add(Integer,Long) } 
+                r => overriding   -> Parent : Child 
+
+
+overloading -> 1) method overloading 
+               2) constructor overloading 
+
+               + => 10+20 => 30
+               + => "ram" + "sita" => ramsita
+
+--------------------------------------------------------------------------------
+abstraction -> hide 
+
+
+----------------------------------------------------------------
+
+abstract -> 
+                        1) method  : only declaration  
+                        2) class   : class can have abstract method 
+
+
+----------------------------------------------------------------------------------
+final static interface implements public private protected default 
+
+final --> 
+                        1) class  ---> final class can not inherit  
+                        2) method ---> final method can not override 
+                        3) variable ---> final variable are constant : they can not modify 
+----------------------------------------------------------------------------------
+        scope of the variable ---> 
+                        class Scope{
+                                static int branchCode;//class Scope -> single copy => heap  
+                                int x; //object's variable : instance variable --- heap  
+
+                                void miniScope(){
+                                        int l; // local variable --stack  
+                                }
+                        }
+
+                Scope s1 = new Scope(); //x : 4 byte  , miniScope()  
+                Scope s2 = new Scope(); //x : 4 byte , miniScope() 
+                Scanner s3 = new Scope(); // x : 4 byte , miniScope() 
+
+
+----------------------------------------------------------------------------------
+
+static --> 1) variable : class level scope - static variable - single copy 
+           2) method : 
+
+
+----------------------------------------------------------------------------------
+
+abstract --> 
+
+        abstract class Abc{ 
+                abstract void add();  
+        }
+
+        Abc obj  = new Abc(); //error  
+        obj.add(); // ? 
+
+         class Def extends Abc{
+                void add(){
+
+                }
+       } 
+
+        Def obj = new Def(); // valid 
+        obj.add();
+
+
+----------------------------------------------------------------------------------
+
+interface : pure abstract class 
+                1) all methods are abstract 
+                2) all methods are public 
+                3) all variables are final 
+                4) all variables are static 
+                5) all variables are public 
+
+
+        class A{
+
+        }
+
+        interface B{
+                        void add();
+                        abstract void sub();
+        }
+
+        abstract interface C{
+
+        }
+
+        class can inherit interface using implements keyword 
+        class can inherit class using extends keyword 
+
+        class D implements B{
+                //need to define add() sub()          
+        }
+
+
+-------------------------------------------------------
+
+final variable is static also ? No 
+
+
+-------------------------------------------------------
+
+create interface Calculator with add() sub() div() method 
+create child class of Calculator with name BasicCalc. 
+now call all the methods of BasicCalc in main 
+
+-------------------------------------------------------
+create interface Employee with calculateSalary() 
+Employee having Child PartTimeEmpl and FullTimeEmpl 
+PartTimeEmpl having method for calculateTDS() 
+FullTimeEmpl having method for calculateTax() 
+both PartTimeEmpl and FullTimeEmpl are interface. 
+
+now create JrEmpl Class who's parent is FullTimeEmpl 
+now create MgmtEmpl class who's parent are FullTimeEmpl and PartTimeEmpl. 
+
+-------------------------------------------------------
+
