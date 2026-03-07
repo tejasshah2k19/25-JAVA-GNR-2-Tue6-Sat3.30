@@ -1,0 +1,195 @@
+1)
+Write a program to input forty words in an array. Arrange these words in descending order of letters . Print the sorted array.
+Sample Input: New Delhi, Bengaluru, Agra, Mumbai, Kolkata 
+Sample Output: New Delhi, Mumbai, Kolkata, Bengaluru, Agra
+
+
+2) 
+Write a program to store names of 20 students and their telephone numbers correspondingly in two single dimensional arrays. 
+Enter a name separately and search it in the given list of names.
+If it is present then display the name with its telephone number otherwise,
+display a message "Name not found". 
+
+3)
+Take string form user and print in left triangle.
+input  : Royal 
+Output :
+        R
+        Ro
+        Roy
+        Roya
+        Royal
+
+4) Write a program in Java to accept a sentence in lowercase. Convert first letter of each word of the sentence in uppercase. 
+   Display the new sentence so formed.
+    Sample Input: we are in cyber world
+    Sample Output: We Are In Cyber World
+
+-------------------------------------------------------------------------------------------------------------------
+
+5) Print all the A to Z alphabets with its ASCII Value. 
+
+A : 65
+B : 66
+Z : 90
+
+
+        for(int i=65; i<= 90 ; i++)
+        {
+                System.out.println(    (char)i + " : " + i  ); 
+        }
+
+
+6) Take 1D array of 5 from users and print its palindrome or not. 
+
+        1 2 3 4 5 => NO 
+        1 2 3 2 1 => YES 
+
+        0  1 2 3 4      
+        1  2 3 2 1 
+        i        j
+           i   j
+
+        boolean palindrome = true; 
+        for(int i=0,int j=arr.length-1; i < arr.length ; i++ , j--  ){
+                if(arr[i] != arr[j]){
+                        palindrome = false; 
+                }
+        } 
+
+        if( palindrome == true )
+                print => palindrome 
+        else 
+                print => not palindrome 
+
+
+7) Array Mountain or not 
+        1 2 3 4 5 : NO 
+        1 2 3 3 4 5 3 2  1 : No 
+        1 2 3 4 5 4 3 1 : 
+
+
+8) Remove Duplicate Characters From a String
+        Input:
+                programming
+        Output:
+                progamin
+
+9) Store City Names & Temperature, Find Hottest & Coldest
+        Input:
+
+        Cities: Ahmedabad, Delhi, Jaipur, Mumbai
+        Temps: 42, 40, 38, 36
+
+        Output:
+        Hottest City  : Ahmedabad (42°C)
+        Coldest City  : Mumbai (36°C)
+
+10) Count Prime Numbers in an Array (1D Array)
+        Input: [11, 14, 17, 18, 19, 23]
+        Output:
+        Prime Count = 4
+
+11) 
+
+1) Input a string array using constructor and count total characters (excluding spaces).
+{"Java", "Spring", "Boot"} → Output: 15
+
+2) now in above array find out the longest string 
+    output : Spring 
+
+3) Print String who's last character is vowel 
+     output : Java 
+
+4)  Reverse Each String in Reverse 
+     output : { avaJ , gnirpS , tooB } 
+
+5) Convert above 4 functionalities in menu driven 
+
+-----------------------------------------------------------------------------------
+
+A Java: Addition Magic Language Method overloading allows a class to have multiple methods with the same name but different argument lists. Using method overloading, complete the implementation of the class AdditionMagic with 3 methods. 1. public String add ( double a, String b) => add(1, "hello") →> returns "Thello" 2. public String add(double a, double b) => add(1.1,2.2) => returns 3.3 (rounded to 2 decimal places) • Examples of rounding (3.765 => 3.77, 3.7649 =>3.76, 3.778 => 3.79) 3. public String add(String a, String b) => add("Hello,""world!") => returns "Hello,world!" When code is submitted, the provided Solution class will test the add methods with different arguments. Example Suppose inputs are: 4 12 34 1 hello hello, world Output: 3.0 7.0 Thello hello,world Explanation: The first row tells how many pairs there are. It is only used by the code stub. Pairs of values are read and passed to the method.
+* 1+2 = 3.0
+
+* 3 + 4 = 7.0
+
+* 1 + "hello" = "Thello"
+
+* "hello," + "world" = "hello,world"
+
+-----------------------------------------------------------------------------------
+
+create class Car with abtract method drive and start 
+Car having child Dzire  class, Dzire  having abstract method stop.
+now create SwiftDzire class who is child of Dzire using object of 
+SwiftDzire call all the methods , start , drive , stop. 
+
+-----------------------------------------------------------------------------------
+abstract class Car{
+          abstract void drive();      
+          abstract void start();       
+}
+
+abstract class Dzire extends Car{
+        abstract void stop();
+}
+
+class SwiftDzire exact Dzire{
+  void drive(){
+
+  }     
+  void start(){
+
+  } 
+  void stop(){
+
+  }
+}
+
+public class AbstractDemo{
+        main(){
+                SwiftDzire s = new SwiftDzire(); 
+                s.start();
+                s.drive();
+                s.stop();         
+        }
+}
+
+-------------------------------------------------------------------------
+
+abstract class  Priceable
+{ 
+        public static final String  PUBLISHER = "PUBLISHER" ;
+        abstract public int pages();
+        abstract public String description();
+}
+
+class Magazine extends Priceable 
+{
+    make a constructor 
+    Magazine(){
+
+    }
+    public int pages(){
+        return 0;
+    }
+    public String description(){
+        return null;
+    }
+
+    and all the required methdos no instance variables 
+    
+}
+
+----------------------------------------------------------------
+
+abstract -> 
+                        1) method 
+                        2) class 
+
+
+----------------------------------------------------------------
+
+
+
+

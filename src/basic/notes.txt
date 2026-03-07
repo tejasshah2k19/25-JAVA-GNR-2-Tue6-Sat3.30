@@ -1,0 +1,1729 @@
+JDK  - java development kit - develope java application 
+
+JRE -java runtime enviornment -> run java application 
+
+
+OS -> JAVA -> JRE 
+
+
+windows + r => cmd 
+
+start - windows -> command 
+
+
+enviornment -> windows -> 
+
+C:\Program Files\Java\jdk-21\bin -> copy 
+
+
+open this pc -> blank space -> right click -> properties -> advance system setting -> enviornment variable -> system variable -> 
+path -> new -> paste your path -> ok ok ok ok -> 
+
+----------------------------------------------------------------------------------------------------------------
+
+java -> H.L -> Eng -> 
+    javac
+    java compiler 
+
+
+.c -> compile -> .exe  .obj .bak  
+.java ->   .class 
+
+javac First.java 
+java First 
+
+
+
+OOP -> 
+    class  :  logical , group , general  
+    object :  physical , member , special 
+
+
+    class AC
+    class Iphone  
+    class Men
+    class Mango
+    class Projector 
+
+    class Tea
+    class Fan
+    object Gandhiji
+    object Dhiraj Sir 
+    object iphone 17 512GB RED color 
+    Object kesar mango yellow sweet 
+
+    NT -> 
+
+    Salman Khan ->
+
+
+    class -> properties -> 
+                1) data member  -----        variable  
+                2) member function ------    method 
+
+    Projector 
+
+    Men 
+
+    Dog 
+        leg 
+        tail 
+        eyes
+        teeth 
+
+        walk()
+        run()
+        jump()
+        bark()
+        bite()
+
+        scooby -> 
+
+
+
+
+Bank 
+        accountNum
+        balance 
+        userName
+        password 
+        pan 
+
+        openAcc()
+        wid()
+        dep()
+        checkBal()
+
+
+        customer->
+
+
+
+-----------------------------------------------------------------------------
+
+create class Calc 
+                    main 
+                            this is calc 
+                            this is calc 
+
+
+-----------------------------------------------------------------------------
+class -> First  
+      -> TempEmp 
+      -> TempSalTax 
+
+
+variable -> salary 
+            maxSalary 
+            maxSalaryTax 
+
+constant variable -> 
+            MAX_SALARY 
+            PI 
+            ROI 
+
+method -> same as variable -> 
+                    add()
+                    addEmp()
+                    addEmpSal() 
+                    
+------------------------------------ 
+Calc 
+        main
+                addition of two numbers 
+                    step 1: take two variables -> input 
+                    step 2: addition -> variable 
+                    step 3: addition -> display
+
+------------------------------------ 
+class -> calc 
+    add()
+    sub()
+    multiplication()
+
+------------------------------------ 
+
+
+Calculator.java 
+
+class : Calculator 
+
+main() 
+
+Calculator working fine 
+
+------------------------------------ 
+
+variable -> 
+                data name 
+                in which we will store values 
+
+data type ->
+                int a; // numeric -> whole digits 
+                float a; // numeric -> floating point 
+
+
+
+            Data Type 
+
+1) primitive 
+        byte : 1 byte : 8 bits 
+        short : 2 byte : 16 bits 
+        char  : 2 byte 
+        int   : 4 byte 
+        long  : 8 byte 
+        float : 4 byte 
+        double: 8 byte 
+        boolean {true|false} : 1 bits 
+
+2) non primitive 
+        class {String}
+        Object 
+        array 
+        enum
+        interface 
+
+----------------------------------------------------------------------------------------
+
+
+Scanner 
+    nextInt()
+    nextFloat()
+    nextDouble()
+
+
+import  java.util.Scanner; 
+
+ 
+----------------------------------------------------------------------------------------
+ 
+ ClassName objName = new ClassName(); 
+
+
+
+
+
+
+1) ___javac______ is used to compile java file and ___java_____ is used to run java class file 
+
+2) ___.java_____ is the extension of java file 
+
+3) full name of jdk ___java development kit_______ and jre ______java runtime enviornment__________ 
+
+4) for input we use _____Scanner_________ class and it will import using ___import java.util.Scanner______ line 
+
+5) ____nextInt()____ method is used to read integer input from console.
+
+6) signature of the main method ______public static void main(String args[])____ 
+
+7) we have total ____8____primitive data types. 
+
+8) to store true / false values we have __boolean__ data type in java? 
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
+ String 
+ System 
+
+ Scanner : input { nextInt( ) }
+ Date : date day month year hour second milisecond timezone {IST} 
+
+
+import java.util.Scanner;
+import java.util.Date; 
+
+import java.util.*; 
+        //no memory 
+
+
+object create -> 
+use --> 
+
+import java.lang.*;
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
+single character -> 
+                    char name =   'z';
+
+multiple character 
+                    char name[] = "royal"; 
+                    String class 
+                        collection of characters 
+
+
+
+
+
+Student 
+    firstName
+    lastName 
+    course
+    pyramid 
+    contactNum 
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
+ 
+Student 
+    firstName
+    lastName 
+    course
+    pyramid 
+    contactNum 
+
+
+    getData() : read student info 
+    printData() : print student info 
+
+
+
+------------------------------------------------------------------------------------------------------------------
+
+
+
+JDK : 
+JRE : 
+
+.java 
+
+Calc.java 
+
+compile -> 
+            javac Calc.java 
+            java Calc 
+
+
+data types -> 
+        1) primitive
+                byte short char int long float double boolean 
+        2) non primitive 
+                class object array interface enum 
+
+------------------------------------------------------------------------------------------------------------------
+
+input : Scanner 
+
+    int scan     -> nextInt() 
+    float scan   -> nextFloat()
+    double scan  -> nextDouble()
+
+import java.util.Scanner; 
+
+object -> 
+
+        Scanner scr = new Scanner(System.in);
+
+------------------------------------------------------------------------------------------------------------------
+1) take number from user and print multiplication table of that number 
+2) take three numbers from user and find out max from it. 
+3) take number from user and find out sum of digits of num 
+                e.g num = 1223
+                ans = 1+2+2+3 = 8 
+                num = 85;
+                ans = 13 
+------------------------------------------------------------------------------------------------------------------
+
+Java ->                 JDK , JRE
+
+                tools -> javac , java , jdb , javadoc , appletviewer , 
+
+extension java save ?  .java 
+
+
+A.java -> compile -> javac A.java -> A.class -> java A 
+                        main() 
+--------------------------------------------------------------------------------------------------------------------
+class : object  : OOP 
+
+data type ->    2 -> primitive , non primitive 
+--------------------------------------------------------------------------------------------------------------------
+
+true , false -> boolean 
+
+while(1){
+
+}
+
+while(true){
+        
+}
+
+--------------------------------------------------------------------------------------------------------------------
+  input ? 
+                Scanner class  
+  how   ? 
+                Scanner scr = new Scanner(System.in);
+
+  import ? 
+                import java.util.Scanner;
+                import java.util.*;
+
+--------------------------------------------------------------------------------------------------------------------
+  5 6 7 => byte , short , int , long
+
+ byte  : 1 -> 8 bits -> 2^8 -> 256 -> -128 to  127 
+ short : 2 -> 16bits -> 
+ int   : 4 -> 32bits -> 
+ long  : 8 -> 64bit  -> 
+--------------------------------------------------------------------------------------------------------------------
+
+
+class Employee 
+        employeeId , salary  , basicSalary 
+        +12%HRA , -10%PF  , +8%DA , +8%TA ,  
+
+        getData();
+        printData(); employeeId basicSalary HRA PF DA TA Salary TAX:Y  TAX_AMOUNT:5200 
+        calculateTax(); 
+                        totalSalary PA -> 12LAC - 15LAC  -> 10% TAX 
+                                          15+ - 30 -> 20% 
+                                          30+ -> 30% 
+        //helper 
+        calculateSalary():  
+
+--------------------------------------------------------------------------------------------------------------------
+
+cohesion -> 
+
+
+--------------------------------------------------------------------------------------------------------------------
+
+javac 
+java 
+
+
+
+platform dependant 
+
+windows -> 
+                .c      -->    .exe 
+                .cpp    --> 
+mac --> 
+
+                .c -> 
+linux -> 
+                .c -> 
+
+
+
+
+JAVA -> platform independent lang 
+                WORA 
+
+                Write Once Run Anywhere 
+                Write One Run Anytime 
+
+.class -> byte code ->
+
+        JRE 
+        
+
+
+JRE JVM class loader JIT 
+BYTE code MAGIC CODE 
+WORA 
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+Java loops ->
+                repeat 
+                iterative 
+
+                        for 
+                        while 
+                        do...while 
+                        enhanced for loop ... for each loop 
+
+
+
+
+MultipliactionTable ->
+                main -> 
+                        num scan -> 
+                                10 -> 
+                                        for loop -> 
+                                                        10 * 1 =  10 
+                                                        10 * 2 =  20 
+                                                        10 * 10 = 100
+----------------------------------------------------------------------------------------------------------------------
+
+identifier and keywords 
+
+
+identifier :- 
+        variable 
+        method 
+        class 
+        object 
+
+        int num; // num 
+        String firstName ; // firstName 
+        int num1; // valid 
+        int 1num; // invalid 
+
+        1) a-z A-Z 0-9 _  $
+        2) first character must not be DIGIT  
+        3) you can not use balnk space 
+        4) yon can not use keywords 
+        5) case senisitive -> uppercase and lowercase are different 
+
+        int _a;  ---> valid 
+        int $c;  ---> valid 
+        int ______2_w; --> valid 
+        int _$;  --> valid  
+        int -d;  --> invalid 
+        int e#;  --> invalid 
+        int .f;  --> invalid
+        int 7g;  --> invalid 
+
+
+keywords ---> reserved words 
+
+        int 
+        if 
+        continue 
+        goto
+        break 
+
+
+
+        int goto; //error 
+
+----------------------------------------------------------------------------
+class ->
+                Employee
+                TempEmpl
+                TempEmpl 
+
+method ->       addition()
+                textCalculation() 
+                findMaxNum()
+
+variable ->     salary
+                totalSalary
+
+constants ->    SIZE 
+                PI
+                MIN_BAL
+
+----------------------------------------------------------------------------
+default value -->
+
+byte :  0
+short : 0
+char :  '\u0000'
+int  :  0
+long :  0
+float : 0.0
+double : 0.0 
+boolean : false 
+
+----------------------------------------------------------------------------
+
+constructor --> constructor is a special method , which has same name as class name. 
+                and it must not have any return type. 
+            --> constructor is used to initalize instance variable. 
+            --> we have two types of constructor 
+                        1) implicit constructor 
+                        2) explicit constructor 
+                                2.1)    no argument , default constructor 
+                                2.2)    argument , parameterized constructor 
+            --> we don't need to call constructor manually , it will call automatically when we create instance 
+            
+class Employee{
+
+        Employee(){
+
+        }
+
+}
+
+-----------------------------------------------------------------------------------------------
+
+create a class call product , with productId , prodcutCode , productDiscount  and productPrice 
+        we will create three products 
+        use constructor to initalize values of product 
+        call display function to print all the values of Product class 
+output: 
+1
+A
+500
+50000
+
+101
+Z
+5000
+150000
+
+
+451
+X 
+4000
+400000
+------------------------------------------------------------------------------------------------
+
+class BasicCalc 
+
+        add()
+        sub()
+        mul()
+        div()
+
+class SciCalc 
+
+        sqrt()
+        sin()
+        cube()
+
+
+
+
+add() -> 
+        object -> BasicCalc 
+
+cube() -> object -> SciCalc 
+
+
+SciCalc -> object -> add() sub() mul() div() 
+
+
+inheritance -> object of one class can access property of another class 
+
+how to achieve inheritance ? 
+ans : using extends keyword 
+
+class BasicCalc{
+        //add() sub() mul() div()
+}
+
+class SciCalc extends BasicCalc{
+        //sin() cube() sqrt()
+}
+
+------------------------------------------------------
+
+BasicCalc 
+SciCalc 
+
+Parent Class  / Super / Base 
+Child  Class / Sub   / Derived 
+
+------------------------------------------------------
+we have 5 types of inheritance in OOP 
+
+java supports 4 types of inheritance directly [ using class ]
+for 5th type we need to use interface [using interface ]
+
+
+1) single level 
+2) multi level 
+3) multiple 
+4) hirerchical 
+5) hybrid 
+
+-------------------------------------------------------------------------
+
+method signature ->  return type , argument , name 
+
+                        void add() // no return type no argument 
+                        int  add() // return type no argument 
+                        void add(int,int) // no return with argument 
+                        int add(int,int) // return with argument 
+
+constructor signature -> ABSENT in return , no argument or with argument , name -> same as class name 
+  -------------------------------------------------------------------------
+
+
+class Account{
+
+        //
+        //
+}
+
+class SavingAccount extends Account{
+        //
+        //
+        //       
+}
+
+Parent - Super - Base   
+Child  - Sub   - Derived 
+ 
+--------------------------------------------------------------------------------------
+1: single level 
+2: multi level 
+3: multiple   [ not supported via class ] [ interface ]
+4: hirerchical
+5: hybrid 
+--------------------------------------------------------------------------------------
+
+Overriding-> child will create method with exact same signature with parent 
+private default protected public 
+
+--------------------------------------------------------------------------------------
+
+
+SBI s = new SBI();
+s.wid();
+
+
+What type of inheritance is demonstrated here?
+A. Single inheritance
+B. Multiple inheritance
+C. Multilevel inheritance
+D. Hybrid inheritance
+Ans: C 
+
+
+Which statement about inheritance is correct?
+A. Java supports multiple inheritance using classes
+B. Inheritance helps in code reusability
+C. Private members are inherited
+D. Constructors are inherited
+Ans: B 
+
+
+Which of the following is NOT a use of super keyword?
+A. Access parent class constructor
+B. Access parent class method
+C. Access parent class variable
+D. Access child class method
+Ans : D 
+ 
+__________ keyword is used to achieve inheritance in java?
+Ans: extends
+
+
+
+Which condition is mandatory for method overriding?
+A. Method name must be different
+B. Return type must be different
+C. Method signature must be same
+D. Method must be static
+Ans: C 
+
+
+Can a private method be overridden?
+A. Yes
+B. No
+C. Only in same package
+D. Only using super
+Ans : NO 
+
+
+
+
+class Parent {
+    void display() {
+        System.out.println("Parent");
+    }
+}
+class Child extends Parent {
+    void display() {
+        System.out.println("Child");
+    }
+}
+public class Test {
+    public static void main(String[] args) {
+        
+        Parent p = new Child();//polymorphic object 
+        
+        p.display();// compiletime : Parent , runtime : Child 
+    }
+}
+
+A. Parent
+B. Child
+C. Compile-time error
+D. Runtime error
+
+Ans: B 
+
+
+--------------------------------------------------------------------------------------
+String --> collection of characters 
+
+
+char -> single character 
+
+1+ -> char[] 
+
+
+String class -> 1+ char 
+                        char[]
+
+
+java.lang.String 
+
+
+String s1 = new String("royal");
+String s2 = "royal";
+
+
+length()
+toUpperCase()
+toLowerCase()
+equals() 
+
+1) take email and password from user and print Valid if email is admin@gmail.com and password is secret 
+
+
+Takes username and password from the user.
+Converts the username to lowercase for comparison.
+Validates:
+Username must be at least 5 characters long.
+Username should not be "admin" (case-insensitive).
+Username should not be  start with "admin" (case-insensitive).
+Username should not be  end with "admin" (case-insensitive).
+
+Checks login using:
+stored username = "tejas"
+stored password = "Java123"
+If login is successful:
+Print username in UPPERCASE.
+Print the length of username.
+If not, print appropriate error messages.
+
+
+
+admin123 
+123admin
+
+startsWith() : boolean 
+endsWith()  :  booelan 
+contains() : boolean 
+
+
+String x = "jony jony yes papa" ; 
+String w[] = x.split(" ");
+System.out.print(w.length);//4 
+
+
+String x = "monday,tues,wed,thus,fri" ;
+String w[] = x.split(","); 
+--------------------------------------------------------------------------------------------
+
+String x1 = "rock";
+String x2 = "Rock"; 
+
+x1.equals(x2); // false 
+x1.equalsIgnoreCase(x2); // true 
+
+
+x1.compareTo(x2); // 32 
+x2.compareTo(x1); // -32
+x2.compareToIgnoreCase(x1); // 0 
+
+ 
+--------------------------------------------------------------------------------------------
+
+Takes a username and email from the user.
+Converts username to lowercase for checking.
+
+Validates:
+Username length must be between 5 and 12.
+Username must not be "admin" (ignore case).
+Email must:
+start with a letter (simple check),
+contain "@",
+end with ".com".
+Compare username with stored username "tejas" using compareTo().
+
+If all validations pass:
+Print username in UPPERCASE.
+Print username length.
+Print whether it comes before/after/equal to "tejas".
+Otherwise, print appropriate error messages.
+
+--------------------------------------------------------------------------------------------
+
+Write a Java class CourseAssignment with a method:
+public void validate(String studentName, String courseCode)
+The method should perform the following:
+
+Student Name Rules
+        Convert name to lowercase for validation.
+        Length must be between 3 and 15 characters.
+        Must NOT be "guest" (case-insensitive).
+        Must NOT contain spaces.
+
+Course Code Rules
+        Must start with "CS".
+        Must contain "-".
+        Must end with a digit (0–9).
+        Total length must be between 5 and 10 characters.
+
+If all validations pass, then print :
+All validations passed!
+Student name in uppercase: <NAME>
+Student name length: <LEN>
+
+If any validation fails, return a meaningful error message like:
+Error: Course code must start with CS.
+
+Example:
+input->
+        studentName = "Ravi"
+        courseCode = "CS-101"
+
+output->
+        All validations passed!
+        Student name in uppercase: RAVI
+        Student name length: 4
+-----------------------------------------------------
+Validate an employee name and department code using Java String methods.
+public class EmployeeAssignment {
+    public void validate(String employeeName, String deptCode) {
+        // your logic here
+    }
+}
+Employee Name Rules
+Convert name to lowercase for validation.
+Length must be between 4 and 20 characters.
+Must NOT be "admin" (case-insensitive).
+Must NOT contain spaces.
+
+Department Code Rules
+Must start with "DEP".
+Must contain "-".
+Must end with a digit (0–9).
+Total length must be between 6 and 12 characters.
+
+If all validations pass, print:
+All validations passed!
+Employee name in uppercase: <NAME>
+Employee name length: <LEN>
+
+If any validation fails, print a meaningful error message, for example:
+Error: Department code must start with DEP.
+
+employeeName = "Amit"
+deptCode = "DEP-01"
+Output
+
+pgsql
+Copy code
+All validations passed!
+Employee name in uppercase: AMIT
+Employee name length: 4
+
+
+------------------------------------------------------------------------------------
+
+
+length()
+toUpperCase()
+toLowerCase()
+equals()
+equalsIgnoreCase()
+compareTo()
+compareToIgnoreCase() 
+split() 
+
+
+
+trim() 
+String str = "    royal  edu  ";
+str.trim() -> "royal edu";
+
+charAt()
+String str = "royal education";
+str.charAt(0) -> r 
+str.charAt(7) -> d 
+
+indexOf() lastIndexOf()
+String str = "royal royal";
+str.indexOf('r') => 0 
+str.lastIndexOf('r') => 6
+
+replace()
+
+String str = "ROYAL"; 
+str.replace("R","G"); // GOYAL 
+str.replace('R','G'); // GOYAL 
+
+String str = "ROYAL"; 
+str.replace("RO","ro") // roYAL 
+
+
+
+q : count vowels from string.
+        string => JONY jony yes papa 
+        output => 5
+
+q : count given word in a string. 
+                string => jony jony yes papa
+                word   => jony 
+                output => 2 
+
+------------------------------------------------------------------------------------
+
+String ---> 
+                        StringBuffer 
+                        StringBuilder 
+
+import java.lang.*;
+
+                        StringBuffer : sync  
+                        StringBuilder : non sync 
+
+
+------------------------------------------------------------------------------------
+
+1) JonYjonYYesPapa -> jONyJONyyESpAPA
+2) RoyalEducation -> remove all the vowels from string -> Ryldctn
+3) Palidrome using StringBuffer/StringBuilder
+
+------------------------------------------------------------------------------------
+
+1) String Compression with Frequency (Using StringBuffer)
+Compress a string like "aaabbcddd" → "a3b2c1d3"
+
+
+2)Remove Duplicate Characters
+"programming" → "progamin"
+
+ 
+------------------------------------------------------------------------------------
+
+int a = 10; //4 byte 
+
+a = 20; 
+
+s.o.p(a); 
+
+
+array -> collections of same type of data , continue allocation 
+
+
+c: 
+int a[5]; // X:2000 X:2004 X:2008 X:2012 X:2016-2020 
+
+java: 
+        int a[]; //declare 
+        a = new int[5]; //init 
+
+        int a[] = new int[5]; // array 1 
+
+------------------------------------------------------------------------------------
+
+Q.1 
+
+int[] a = new int[3];
+System.out.println(a[0]);
+
+A. Compilation error
+B. Runtime error
+C. 0
+D. Garbage value
+
+ans :C  
+
+
+Q.2 
+int[] a = {10, 20, 30};
+a[1] = a[1] + a[2];
+System.out.println(a[1]);
+A. 20
+B. 30
+C. 50
+D. 60
+
+ans : c
+
+
+Q.3 
+int[] a;
+System.out.println(a);
+
+A. null
+B. 0
+C. Compilation error
+D. Runtime error
+
+Ans: C 
+
+Q.4 
+int[] a = new int[]{1,2,3};
+System.out.println(a.length());
+A. 3
+B. 0
+C. Compilation error
+D. Runtime error
+
+Ans: C 
+
+Q.5
+int[] a = new int[5];
+a[0] = 1;
+a[4] = 5;
+System.out.println(a[2]);
+
+A. 2
+B. 0
+C. 5
+D. Garbage value
+
+Ans: B 
+
+Q.6 
+
+int[] a = new int[-3];
+A. Array of size 0 created
+B. Compilation error
+C. NegativeArraySizeException
+D. Runtime ignored
+
+Ans : C 
+
+Q.7 
+int[] a = {1,2,3};
+System.out.println(a);
+A. 123
+B. Address value
+C. [I@someHash
+D. Compilation error
+
+Ans : [I@HSAHCODE
+
+Q.8
+int[] a = new int[0];
+System.out.println(a.length);
+A. 0
+B. Compilation error
+C. Runtime error
+D. 1
+
+ans: 0 
+
+------------------------------------------------------------------------------------------
+
+
+
+
+1) 10   20      30      40      50      
+        rotate() => 50 10 20 30 40 
+
+2) 10   20      30      10      20 
+   10  20  30     
+   assume : all values are positive 
+
+3) LeetCode ->
+                https://leetcode.com/problems/two-sum/description/
+
+------------------------------------------------------------------------------------------
+
+0       1       1       3       4         
+10      20      30      40      50
+
+rotate()
+ 
+
+0       1       1       3       4         
+50      10      20      30      40
+i 
+
+tmp = a[a.length-1]; // 50
+
+for(i=a.length-2; i >= 0 ; i--)
+        a[i+1]= a[i]; 
+
+a[0]=tmp; 
+
+
+------------------------------------------------------------------------------------------
+
+Two D Array 
+
+Row X Col 
+
+matrix 
+
+
+int a[ ][ ];
+a = new int[2][3]; 
+
+int b[][] = new int[3][3];
+
+
+int b[][] = new int[3][];
+b[0] = new int[2];
+b[1] = new int[4];
+b[2] = new int[10]; 
+
+
+
+
+int x[][]; 
+
+System.out.println("How many rows u want to create?");
+int row = scr.nextInt();
+
+System.out.println("How many cols u want to create?");
+int col = scr.nextInt(); 
+
+x = new int[row][col]; 
+
+int [][]a; 
+int a[][]; 
+int []a[] ;
+
+int a[];
+int []a; 
+
+
+
+
+
+------------------------------------------------------------------------------------------
+        class 
+        object 
+
+OOPS -> 
+
+        Encapsulation --> 
+                        data (variables) + methods (functions) are combined into a single unit (class),
+                        and direct access to data is restricted using access modifiers (usually private). 
+                        create getters and setters to access those private data. 
+
+
+        class Employee{
+
+                private String firstName;
+                private int salary;
+
+                public String getFirstName(){
+                        return firstName; 
+                }
+                public setFirstName(String firstName){
+                        this.firstName = firstName;
+                }
+
+                //getter setter for salary 
+        }
+
+
+        Inheritance  -> 
+        polymorphism -> 
+        abstraction  ->
+
+----------------------------------------------------------------------------------------
+
+
+S O L I D -> 
+
+        S -> Single Responsiblity Principal 
+                        Student -> addStudent() listStudent() addBook()
+                        Book -> addBook() 
+                        cohesion -> HIGH 
+        
+        O->  Open Close Principal --> 
+                        open for new features 
+                        close for existing modifications 
+
+        L-> Liskov Substitution Principle --> 
+                        child class must  be able to replace parent class without breaking the existing code. 
+
+        I-> Interface segeration Principal --> 
+
+        D-> DIP -> Dependency Inversion Principal 
+
+
+class Santa{
+        Santa(Banta a)
+        {
+
+        }
+
+}
+class Banta{
+
+}
+
+main -> 
+        Banta obj  = new Banta(); 
+        Santa s = new Santa(obj);
+
+
+class ShareMarket{
+ 
+        BuyShare b;
+        SellShare s; 
+
+        ShareMarket(BuyShare b,SellShare s){
+
+        }
+}
+
+BuyShare  b = new BuyShare();
+SellShare s = new SellShare(); 
+ShareMarket s =  new ShareMarket(b,s);
+
+-----------------------------------------------------------------------------------
+
+command line argument ==> 
+
+
+        Javac A.java 
+        Java A
+
+        Java A Ram Shyam Ganshyam  
+
+        dir -> folders , files -> list 
+        
+
+Basic ---> Sci 
+
+Parent class / super / base class 
+Child Class / Sub / Derived 
+
+
+
+OOP -> 5 type inheritance -> 
+Java -> class 4 type , 1 interface 
+         Single level 
+         multi level 
+         hirerchical 
+         multiple 
+         hybrid 
+
+-----------------------------------------------------------------------------------
+
+Ticket Booking App 
+
+
+type tickets -> 
+                        DIAMOND : 500   : 20 
+                        GOLD    : 300   : 30
+                        SILVER  : 200   : 50
+
+
+
+1) 1 person can book max 7 tickets per category 
+2) booking can be done via mobile number 
+
+MAIN MENU => 
+
+1. Login 
+2. Exit 
+
+
+
+
+Login : 
+                Enter Mobile Num 
+                12345
+
+After Login -> 
+        1. Buy Tickets 
+        2. My Tickets  
+        3. Logout 
+
+        1.Buy Tickets 
+                Gold ? Silver? Diamond?
+                Gold :  3 
+                Silver : 5 
+                Diamond : 8 
+
+                user => booking => ACK 
+
+                return after login menu 
+
+        2. My Tickets 
+                Gold    :   3 
+                Silver  :   5
+                Diamond  :  0
+
+                return after login menu 
+
+        1.Buy Tickets 
+                Gold ? Silver? Diamond?
+                Gold :  2 
+                Silver : 2 
+                Diamond : 2 
+
+                user => booking => ACK 
+
+                return after login menu 
+       2. My Tickets 
+                Gold    :   5 
+                Silver  :   7
+                Diamond  :  2
+
+                return after login menu 
+
+        3.  Logout 
+                        Thank you 
+
+                return main menu 
+                
+                1. Login 
+                2. Exit 
+
+                2 
+                System.exit(0); 
+
+
+class : 
+        Ticket 
+                gold : 30 , silver : 50 , diamond : 20 
+
+        Customer 
+                gold :           0 
+                silver :         0
+                diamond :        0
+                mobileNum :      - 
+
+        TicketBookingApp 
+                        main 
+
+------------------------------------------------------------------------
+
+final keyword ->
+
+final variable -> constant variable -> we can not modify 
+                when we declare we must have to assign values 
+                all caps => 
+                
+
+------------------------------------------------------------------------
+
+java.util.Date 
+java.util.Calendar 
+
+LocalDate 
+LocalDateTime 
+
+
+------------------------------------------------------------------------
+overloading 
+wrapper class 
+priority in orverloading 
+------------------------------------------------------------------------
+polymorphism -> 1) compiletime polymorphism  
+                2) runtime polymorphism 
+
+over loading -> more than 1 form 
+            -> student, friend , cousins , 
+
+method overloading ->
+                        1) method name must be same 
+                        2) method argument / parameter must be different { unique }
+        add()
+        add(int a)
+        add(float b)
+        add(int a,int b)
+
+
+byte    =>      Byte 
+short   =>      Short
+char    =>      Character 
+int     =>      Integer 
+long    =>      Long
+float   =>      Float 
+double  =>      Double
+boolean =>      Boolean 
+
+
+wrapper class is used to convert primitive data to objects [ non primitive  ]
+int a = 10; 
+Integer a = 10; 
+
+int x  ; // 0 
+Integer x = null; 
+
+
+
+1) collection api 
+2) null data 
+3) object oriented 
+4) utility methods 
+5) frameworks 
+
+disadvantage : 
+        1) memory overhead  heap vs stack  
+        2) runtime error -> NullPointerException 
+        3) internall conversion -> autoboxing 
+
+
+collection -> wrapper 
+for -> primitive 
+database -> wrapper 
+frameworks -> wrapper 
+
+-------------------------------------------------------------------------------
+
+Inheritance --> 
+        class BasicCalc
+                        add 
+                        sub
+
+        class SciCalc extends BasicCalc  
+                        sin
+                        sqrt
+        
+
+
+        SciCalc s = new SciCalc();
+        s.sin();
+        s.sqrt(); 
+        s.add();
+        s.sub();
+
+
+Parent / Super / Base 
+Child /  Sub  /  Derived 
+
+---------------------------------------------------------------------------
+OOPs 
+
+1 : SingleLevel 
+2 : Multilevel
+3 : hirerchical 
+4 : hybrid 
+5 : multiple  { interface }
+
+
+---------------------------------------------------------------------------
+
+polymorphism -> 
+                c => overloading  -> class {  add() , add(int,int), add(int,double) , add(Integer,Long) } 
+                r => overriding   -> Parent : Child 
+
+
+overloading -> 1) method overloading 
+               2) constructor overloading 
+
+               + => 10+20 => 30
+               + => "ram" + "sita" => ramsita
+
+--------------------------------------------------------------------------------
+abstraction -> hide 
+
+
+----------------------------------------------------------------
+
+abstract -> 
+                        1) method  : only declaration  
+                        2) class   : class can have abstract method 
+
+
+----------------------------------------------------------------------------------
+final static interface implements public private protected default 
+
+final --> 
+                        1) class  ---> final class can not inherit  
+                        2) method ---> final method can not override 
+                        3) variable ---> final variable are constant : they can not modify 
+----------------------------------------------------------------------------------
+        scope of the variable ---> 
+                        class Scope{
+                                static int branchCode;//class Scope -> single copy => heap  
+                                int x; //object's variable : instance variable --- heap  
+
+                                void miniScope(){
+                                        int l; // local variable --stack  
+                                }
+                        }
+
+                Scope s1 = new Scope(); //x : 4 byte  , miniScope()  
+                Scope s2 = new Scope(); //x : 4 byte , miniScope() 
+                Scanner s3 = new Scope(); // x : 4 byte , miniScope() 
+
+
+----------------------------------------------------------------------------------
+
+static --> 1) variable : class level scope - static variable - single copy 
+           2) method : 
+
+
+----------------------------------------------------------------------------------
+
+abstract --> 
+
+        abstract class Abc{ 
+                abstract void add();  
+        }
+
+        Abc obj  = new Abc(); //error  
+        obj.add(); // ? 
+
+         class Def extends Abc{
+                void add(){
+
+                }
+       } 
+
+        Def obj = new Def(); // valid 
+        obj.add();
+
+
+----------------------------------------------------------------------------------
+
+interface : pure abstract class 
+                1) all methods are abstract 
+                2) all methods are public 
+                3) all variables are final 
+                4) all variables are static 
+                5) all variables are public 
+
+
+        class A{
+
+        }
+
+        interface B{
+                        void add();
+                        abstract void sub();
+        }
+
+        abstract interface C{
+
+        }
+
+        class can inherit interface using implements keyword 
+        class can inherit class using extends keyword 
+
+        class D implements B{
+                //need to define add() sub()          
+        }
+
+
+-------------------------------------------------------
+
+final variable is static also ? No 
+
+
+-------------------------------------------------------
+
+create interface Calculator with add() sub() div() method 
+create child class of Calculator with name BasicCalc. 
+now call all the methods of BasicCalc in main 
+
+-------------------------------------------------------
+create interface Employee with calculateSalary() 
+Employee having Child PartTimeEmpl and FullTimeEmpl 
+PartTimeEmpl having method for calculateTDS() 
+FullTimeEmpl having method for calculateTax() 
+both PartTimeEmpl and FullTimeEmpl are interface. 
+
+now create JrEmpl Class who's parent is FullTimeEmpl 
+now create MgmtEmpl class who's parent are FullTimeEmpl and PartTimeEmpl. 
+
+-------------------------------------------------------
+
+Enum , public private protected default 
+
+-------------------------------------------------------
+class Amitabh -> play() dance() walk() 
+
+class Abhishek -> play()  dance()  jump() fight() 
+
+private         -> method ,  variable -->
+default         -> method  , variable , class 
+public          -> method  , variable , class 
+protected       -> method  , variable
+
+-------------------------------------------------------
+class A{//default 
+        int x; //default 
+        void add(){//default 
+
+        }
+} 
+
+
+public class B{//public 
+        int x; //default 
+        public int y;//public
+        void add(){//default 
+
+        }
+        protected void sub(){
+
+        }
+} 
+
+
+-------------------------------------------------------
+
+private --> property -> scope -> within the class -> same class 
+
+
+
+------------------------------------------------------------
+package -> java's kind folder 
+
+
+datetime 
+
+inputoutput 
+
+
+oops 
+
+
+movie ->        hollywood 
+                               dubbed 
+                                        Now You Can See Me  
+                               xender Cage 
+                bollywood 
+                
+
+
+
+import java.lang.*; 
+
+
+java
+        util
+                Scanner
+                Date
+                Calendar 
+        lang
+                System
+                String 
+        io
+                File
+                FileWriter
+                FileReader
+        applet
+                Graphic
+                Panel
+                Applet 
+        network 
+        security 
+        
+        nio
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
