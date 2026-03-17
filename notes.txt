@@ -1,0 +1,29 @@
+take n numbers from users and store into ArrayList and print it. 
+
+run -> 
+		how many elements you want to add ?
+		5
+		
+		Enter value
+		1
+		Enter value
+		11
+		Enter value
+		22
+		Enter value
+		33
+		Enter value
+		44
+		
+		List => 
+		1
+		11
+		22
+		33
+		44
+		
+		syso -> ctrl + space 
+		
+		
+----------------------------------------------------------------------------		
+
