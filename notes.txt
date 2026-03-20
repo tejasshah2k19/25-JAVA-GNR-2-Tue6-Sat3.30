@@ -27,3 +27,31 @@ run ->
 		
 ----------------------------------------------------------------------------		
 
+add(value); //add at the end 
+add(index,value) //add at given index - it will not overwrite data 
+set(index,value) // replace the value with given index - data loss 
+size(); // total number of elements in array list 
+get(index) ; // read single element from arraylist using index 
+remove(value) ; // remove given value from array list if present 
+remove(index) ; //remove given index - if negative index or > size-1 then runtime error 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

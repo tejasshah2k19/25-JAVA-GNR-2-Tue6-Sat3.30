@@ -26,7 +26,7 @@ public class ArrayListDemoScan {
 
 		System.out.println("List => ");
 		for (int i = 0; i < n; i++) {
-			System.out.println(list.get(i));
+			System.out.println(list.get(i));//list[0] => list.get(0)
 		}
 
 		// sum of all elements
