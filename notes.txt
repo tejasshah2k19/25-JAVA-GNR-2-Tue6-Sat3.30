@@ -35,10 +35,14 @@ get(index) ; // read single element from arraylist using index
 remove(value) ; // remove given value from array list if present 
 remove(index) ; //remove given index - if negative index or > size-1 then runtime error 
 
+contains()
+
+----------------------------------------------------------------------------		
+
+ArrayList --> duplicate , index , ordered , unsorted 
 
 
-
-
+----------------------------------------------------------------------------		
 
 
 
