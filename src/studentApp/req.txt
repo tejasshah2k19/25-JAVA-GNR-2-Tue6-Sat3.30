@@ -1,0 +1,18 @@
+student 
+	studentId , firstName , lastName , email , contactNum 
+	1			A			A			A			11
+	2			B			B			B			22
+	
+batch
+	batchId , batchName , subject , startDate , endDate 
+		1		GNR_Java	java	1-dec-2025	30-june-2026
+		2		GNR_JS		js		1-dec-2025	1-may-2026 
+exam 
+	examId , title , score , 		level 
+	1		 DS_1	  20			EASY 
+	2		 DS_MIX	  30			MEDIUM
+	3		JAVA_OOPS 50			EASY 
+	
+		
+	
+
