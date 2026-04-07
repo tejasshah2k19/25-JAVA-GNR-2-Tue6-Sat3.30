@@ -43,8 +43,47 @@ ArrayList --> duplicate , index , ordered , unsorted
 
 
 ----------------------------------------------------------------------------		
+/*
+ * 
+ * 1) compile time error  --> .java -> .class X 
+ * 2) runtime error --> .class -> run --> error 
+ * 
+ * compile time error -> compiler --> 
+ * 	undeclare variable  , semicolon , = == , syntax error 
+ * 
+ * runtime error --> Exception
+ * 		5 array  : 6 7 => access => runtime error  
+ * 		num / 0 : 10 /0 => runtime error 
+ * 		input : num :int :  17.25 ==> runtime error 
+ * 
+ * exception --> runtime error 
+ * 			 --> crash 
+ * 
+ * exception handling  :-> 
+ * */
+
+runtime error -> class -> exception class 
 
 
+ArithmeticException 
+ArrayIndexboundException 
+InputmismatchException 
+XXX
+XXX
+
+block -> 
+
+		try
+		hit 
+		throw 
+		catch 
+
+
+try{
+
+}catch(XXXX){
+
+}
 
 
 
