@@ -8,9 +8,9 @@ public class ArrayListMethods {
 
 		ArrayList<Integer> list = new ArrayList<>();
 
-		list.add(10);
-		list.add(100);
-		list.add(1000);
+		list.add(10);//0
+		list.add(100);//1
+		list.add(1000);//2
 		// can we have duplicate ?
 		// yes
 		list.add(10);
@@ -34,7 +34,7 @@ public class ArrayListMethods {
 		// no
 
 		// how to remove element from array list?
-		list.remove(0);
+		list.remove(0);//index
 		list.remove(new Integer(10));// 10 value
 		System.out.println("ForEach After 0th index remove => ");
 		for (int x : list) {
@@ -69,8 +69,8 @@ public class ArrayListMethods {
 
 		// search particular element /value / items in list ?
 
-		System.out.println(list.contains(100000));
-		System.out.println(list.contains(-10));
+		System.out.println(list.contains(100000));//boolean -> false
+		System.out.println(list.contains(-10));//true 
 //		
 //		-10
 //		100
@@ -89,7 +89,7 @@ public class ArrayListMethods {
 		anotherList.add(503);
 
 		list.addAll(anotherList);
-		System.out.println(list);
+		System.out.println(list);//4 + 4 => 8 
 
 //		list.addFirst(10);
 //		list.addLast(20);
@@ -97,7 +97,7 @@ public class ArrayListMethods {
 //		list.removeLast();
 //		list.reversed();
 		list.clear(); // remove all the items from linked list
-
+		
 //		
 
 	}

@@ -10,6 +10,17 @@ public class Student {
 	private String email;
 	private String contactNum;
 
+	public Student() {
+	}
+
+	public Student(String firstName, String lastName, String email, String contactNum) {
+		this.studentId = (int) (Math.random() * 100000);
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.email = email;
+		this.contactNum = contactNum;
+	}
+
 	public Integer getStudentId() {
 		return studentId;
 	}
@@ -52,7 +63,7 @@ public class Student {
 
 	public void inputData() {
 		Scanner scr = new Scanner(System.in);
-		studentId = (int)(Math.random()*100000);//0 25874  * 100000 
+		studentId = (int) (Math.random() * 100000);// 0 25874 * 100000
 		System.out.println("Enter FirstName and LastName");
 		firstName = scr.next();
 		lastName = scr.next();
@@ -61,4 +72,7 @@ public class Student {
 		contactNum = scr.next();
 	}
 
+	public void display() {
+		System.out.println(studentId + " " + firstName + " " + lastName + " " + email + " " + contactNum);
+	}
 }
