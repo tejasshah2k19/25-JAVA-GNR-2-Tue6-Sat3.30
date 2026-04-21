@@ -236,13 +236,35 @@ db connection open ---> 500+
 
 
 	login with gmail 
+
+-------------------------------------------------------------------
+				
+//how to create your exception class--- custom exception 
+//1) class extends Exception or RuntimeException 
+//2) create constructor for error message 
+
+-------------------------------------------------------------------
+				
+
+Calc ->	
+			add 
+			div 
+			sub 
+			
+			1) all inputs are integers 
+			2) in the output we will never have negative values 
+				10-25 => 15 
+			3) throw NegativeNumber exception when user input negative numbers
+			
 				
 				
+		throw , throws , Throwable 
+		throw , throws , throwable 
+		
 
 
 
-
-
+-------------------------------------------------------------------
 
 
 

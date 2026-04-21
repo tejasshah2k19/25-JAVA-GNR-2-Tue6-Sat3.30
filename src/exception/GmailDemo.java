@@ -44,10 +44,23 @@ class GmailApi {
 		} else {
 //			ArithmeticException e = new ArithmeticException("Invalid Email");
 //			throw e;//
-			
-			throw new RuntimeException("E0075 : Invalid Email");
-		
+
+//			throw new RuntimeException("E0075 : Invalid Email");
+			throw new InvalidGmailException();
 		}
 	}
+}
 
+//how to create your exception class--- custom exception 
+//1) class extends Exception or RuntimeException 
+//2) create constructor for error message 
+
+class InvalidGmailException extends RuntimeException {
+	public InvalidGmailException() {
+		super("Invalid Gamil");
+	}
+
+	public InvalidGmailException(String errorMessage) {
+		super(errorMessage);
+	}
 }
