@@ -276,15 +276,158 @@ Calc ->
 -------------------------------------------------------------------
 			
 
+1. enum Animals {
+2. 		DOG("woof"), CAT("meow"), FISH("burble");
+3. 		String sound;
+4. 		Animals(String s) { sound = s; }
+5. }
+6. class TestEnum {
+7. 		static Animals a;
+8. 		public static void main(String[] args) {
+9. 				System.out.println(a.DOG.sound + " " + a.FISH.sound);
+10. 	}
+11. }
+
+What is the result?
+A. woof burble
+B. Multiple compilation errors
+C. Compilation fails due to an error on line 2
+D. Compilation fails due to an error on line 3
+E. Compilation fails due to an error on line 4
+F. Compilation fails due to an error on line 9
 
 
+S.o.p(Day.SUN.v);
+Day L = Day.TUE;
+L == Day.TUE  => true 
 
+
+enum Day{
+	SUN(0),MON(1),TUE(2),WED(3),THUS(4),FRI(5),SAT(6);
+  int v; 
+  Day(int x){
+  	v=x; 
+  }
+}
+
+----------------------------------------------------------------------------------
+
+Thread --> 
+
+
+	class Buyer 
+			amt = constructor is used to initialize 
+			
+			start --> 5 second -> amt -> 1000 deduct -> amt negative 
+			
+			final amt print 
+			
+e.g 
+		15000
+		1000 deducted 
+		5 second 
+		1000 deducted 
+		5 second 
+		1000 deducted 
+		5 second 
+		1000 deducted 
+		5 second 
+		1000 deducted 
+		5 second 
+		final amt => 10000 
+		
+		
+e.g  4000 
+		1000 deducted 
+		5 second 
+		1000 deducted 
+		5 second 
+		1000 deducted 
+		5 second 
+		1000 deducted 
+		5 second 
+		1000 deduction fail due to insufficient amount  
+		5 second 
+		final amt => 0 
+
+e.g  4500
+		1000 deducted 
+		5 second 
+		1000 deducted 
+		5 second 
+		1000 deducted 
+		5 second 
+		1000 deducted 
+		5 second 
+		1000 deduction fail due to insufficient amount  
+		5 second 
+		final amt => 500 
+
+	
+buyer b -> thread 
+					1) santa 
+					2) banta 
+					
+			wid using santa and banta -> you must have to print who is processing.
+					
 
 
 			
+-----------------------------------------------------------------------
 
+read 5 names from user and store into file names.txt 
+we want to filter all good names into goodName.txt 
 
+good name ? 
+		length 4+ 
+		
+om
+ram
+shyam
+ganshaym
+radheshyam
+		
+names.txt -> 
+om
+ram
+shyam
+ganshaym
+radheshyam
+		
+goodNames.txt -> 
+shyam
+ganshaym
+radheshyam
+		
+-----------------------------------------------------------------------
 
+read 5 numbers from user and store in numbers.txt 
+now read numbers.txt file and filter numbers odd /even 
+if number is odd then store into odd.txt 
+if number is even then store into even.txt
+
+1
+2
+3
+4
+5
+
+numbers.txt
+1
+2
+3
+4
+5
+
+odd.txt
+1
+3
+5
+
+even.txt
+2
+4
+-----------------------------------------------------------------------
 
 
 
