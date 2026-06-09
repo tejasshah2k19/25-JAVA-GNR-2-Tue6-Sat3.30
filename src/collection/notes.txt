@@ -1,0 +1,95 @@
+collection 
+	import java.util.* ; 
+
+
+				Collection 				|
+										|
+List		Queue			Set			|  Map 
+ArrayList	PriorityQueue	HashSet		|  HashMap
+Vector 						TreeSet 	|  TreeMap
+
+
+amazon -> led tv -> sort by rating -> asc sort -> 
+25000 -> 
+			Sony ABC 
+				unique 
+				
+				
+unique 
+duplicate 
+
+sort
+unSorted
+
+ordered 
+unOrdered 
+
+
+--------------------------------------------
+1) create vector of 5 numbers and remove given number.
+10 20 30 40 50 
+20
+10 30 40 50 
+
+10 20 30 40 50 
+33
+10 20 30 40 50 
+
+
+
+for(int i=1;i<=5;i++){
+	System.out.println("Enter value");
+	int num = scr.nextInt( ) ; 
+	list.add(num);
+}
+
+	System.out.println("Enter value for delete");
+	int key = scr.nextInt( ) ;
+	list.remove( new Integer(key) );
+	
+---------------------------------------------------------	
+
+
+ArrayList:-
+Store 20 student names and print them in reverse order.
+Find the largest and smallest number in an ArrayList.
+Remove all even numbers from an ArrayList.
+Count how many times a given number appears.
+Merge two ArrayLists.
+Rotate ArrayList by K positions.
+Remove all duplicate elements while maintaining insertion order.
+Find the second largest number.
+Split an ArrayList into even and odd lists.
+Find all pairs whose sum equals a target value.
+
+
+HashSet:-
+Count unique words in a sentence.
+Find common elements between two sets.
+Remove duplicates from a list using HashSet.
+Find missing numbers from 1 to N.
+Check if two strings are anagrams using HashSet.
+
+
+PriorityQueue:-
+Print numbers in ascending order using PriorityQueue.
+Find K smallest elements.
+Top N Trending Hashtags.
+
+
+
+
+
+
+
+
+
+
+
+--------------------------------------------
+
+
+
+
+
+  
