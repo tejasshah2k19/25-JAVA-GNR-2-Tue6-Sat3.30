@@ -77,16 +77,62 @@ Find K smallest elements.
 Top N Trending Hashtags.
 
 
+--------------------------------------------
+
+duplicte 
+unique
+sorted 
+unsorted 
+index 
+order 
+unorder 
 
 
 
-
-
-
+ArrayList : duplicate , unsorted , index ,order 
+TreeSet   : unique , sorted 
 
 
 
 --------------------------------------------
+						Map 
+		HashMap					TreeMap 
+		
+		
+key:value 
+
+	create 1 map with String key , String value 
+			key 	: student name
+			value   :  city 
+	add 5 students 
+	print 
+			
+
+--------------------------------------------
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
